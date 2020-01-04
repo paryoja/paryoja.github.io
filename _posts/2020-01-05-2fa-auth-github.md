@@ -4,7 +4,7 @@ categories:
   - Essay
 tags:
   - github
-  last_modified_at: 2020-01-05T00:23
+last_modified_at: 2020-01-05T00:23
 ---
 
 Google등 검색 엔진에 검색이 되도록 하려는 중에 왠지 걱정이 되어서 two-factor authentication을 활성화 시켰다.

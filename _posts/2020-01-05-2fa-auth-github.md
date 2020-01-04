@@ -9,7 +9,7 @@ last_modified_at: 2020-01-05T00:23
 
 Google등 검색 엔진에 검색이 되도록 하려는 중에 왠지 걱정이 되어서 two-factor authentication을 활성화 시켰다.
 덕분에 기존 git push 시에 인증이 안되는 이슈가 발생.
-github [안내 페이지](https://help.github.com/en/github/authenticating-to-github/accessing-github-using-two-factor-authentication)에 
+ [github 안내 페이지](https://help.github.com/en/github/authenticating-to-github/accessing-github-using-two-factor-authentication){:target="_blank"}에 
 보니 ssh key로 하거나 personal access token을 사용하라고 하였다.
 
 Personal access token을 생성했는데, 생성시에 적어 두거나 저장해두지 않으면 다음번 쓸 때 재발급 받아야 하는 문제가 있어서

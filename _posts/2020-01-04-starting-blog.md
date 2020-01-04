@@ -4,7 +4,7 @@ categories:
   - Essay
 tags:
   - blog
-last_modified_at: 2020-01-03T17:18
+last_modified_at: 2020-01-04T17:18
 ---
 
 Django로 개인 홈페이지를 만들면서 다양한 설정으로 프로젝트가 복잡해짐에 따라서 내용을 정리할 공간이 필요해진 차에, 

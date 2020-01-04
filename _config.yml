@@ -80,4 +80,4 @@ defaults:
     values:
       layout: post
       read_time: true
-remote_theme : mmistakes/jekyll-theme-basically-basic
+remote_theme: mmistakes/jekyll-theme-basically-basic

@@ -1,5 +1,6 @@
 ---
 title: "Serving static files"
+date: 2020-01-05T17:23
 categories:
   - Essay
 tags:

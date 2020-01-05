@@ -1,5 +1,6 @@
 ---
 title: "Starting Blog"
+date: 2020-01-04T17:18
 categories:
   - Essay
 tags:

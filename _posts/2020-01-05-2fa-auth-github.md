@@ -1,5 +1,6 @@
 ---
 title: "2FA Authentication for github"
+date: 2020-01-05T00:23
 categories:
   - Essay
 tags:

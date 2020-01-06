@@ -21,3 +21,5 @@ Putty를 깔아야하나 고민하던 차에 git client로 쓰던 Sourcetree에 
 다만 Sourcetree가 의문의 이유로 종료되는 것을 겪었다. (Atlassian 좋아하는데 Sourcetree 안정성은 왜 항상...) 
 여튼 key 생성 후 등록 완료. 따라서 현재는 windows/mac book에서 github push가 자유로워졌다.
 > 다만 기존에 https:// 경로로 checkout한 repository의 설정을 모두 ssh로 변경하는 번거로움은 있었다.
+>> [stackoverflow](https://stackoverflow.com/questions/1722807/how-to-convert-git-urls-to-http-urls/11383587#11383587) 에 
+설정 한번으로 변경하는 것이 나와 있었네 Thx 병찬!

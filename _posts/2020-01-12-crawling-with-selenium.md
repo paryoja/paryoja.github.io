@@ -18,20 +18,24 @@ java script를 실행해서 받아 올까 하다가 Selenium을 활용하여 실
 from selenium import webdriver
 
 options = webdriver.ChromeOptions()
+
 (옵션 설정)
+
 driver = webdriver.Chrome('{}/chromedriver'.format(chrome_driver_path), chrome_options=options)
 ```
 
 브라우저에서 진행할 수 있는 다양한 행동을 함수를 통해서 수행 할 수 있다.
 
 ```
-driver.get(url) # url로 이동
-driver.execute_script() # java script 실행
-driver.set_window_position(100, 100) # 브라우저 위치 설정
-driver.set_window_size(600, 600) # 브라우저 크기 설정
+driver.get(url)                       # url로 이동
+driver.execute_script()               # java script 실행
+driver.set_window_position(100, 100)  # 브라우저 위치 설정
+driver.set_window_size(600, 600)      # 브라우저 크기 설정
+driver.page_source                    # 현재 html 가져오기, 함수가 아님에 유의
 ```
 
 때로는 웹 페이지가 로드 되기 전이여서 기다려야 할 때가 있다.
+자주 쓰일거 같아서 함수로 만들어 보았다.
 
 ```
 from selenium.webdriver.common.by import By

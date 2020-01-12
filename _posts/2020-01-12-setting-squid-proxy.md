@@ -1,5 +1,5 @@
 ---
-title: "Crawling with Selenium"
+title: "Setting Squid Proxy"
 date: 2020-01-12T22:32
 categories:
   - Essay

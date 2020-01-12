@@ -52,7 +52,7 @@ swapon /swapfile
 ```
 /swapfile   none    swap    sw    0   0
 ```
-
+> 나중에 해봤는데 잘 동작했다.
 
 
 어짜피 하는게 별로 없어서 [caddy](https://github.com/caddyserver/caddy) 라는 걸 써보는 것도 나쁘지 않을거 같다.

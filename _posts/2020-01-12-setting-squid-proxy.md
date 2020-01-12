@@ -35,7 +35,7 @@ FATAL: xcalloc: Unable to allocate 1048576 blocks of 392 bytes!
 
 GCP 공짜 인스턴스 메모리가 580MB 밖에 안되서 그런가 싶었는데, 설정의 메모리 부분을 줄여보는데도 변화가 없었다.
 swap 메모리 영역이 설정되어 있지 않아서 그런거 같아서 swap 파일로 설정해두니 잘 동작한다. 
-스왑 파일 만들고 적용하는 것은 https://extrememanual.net/12975 에서의 내용을 참고했다.
+스왑 파일 만들고 적용하는 것은 [https://extrememanual.net/12975](https://extrememanual.net/12975) 에서의 내용을 참고했다.
 
 
 ```
@@ -55,4 +55,4 @@ swapon /swapfile
 
 
 
-어짜피 하는게 별로 없어서 https://github.com/caddyserver/caddy 라는 걸 써보는 것도 나쁘지 않을거 같다.
+어짜피 하는게 별로 없어서 [caddy](https://github.com/caddyserver/caddy) 라는 걸 써보는 것도 나쁘지 않을거 같다.

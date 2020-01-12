@@ -5,7 +5,7 @@ categories:
   - Essay
 tags:
   - Selenium
-  - Nginx
+  - Python
 last_modified_at: 2020-01-12T10:16
 ---
 
@@ -14,7 +14,7 @@ java script를 실행해서 받아 올까 하다가 Selenium을 활용하여 실
 
 먼저 Chrome driver를 다운받아 경로에 두고 다음과 같이 driver를 생성한다.
 
-```
+```python
 from selenium import webdriver
 
 options = webdriver.ChromeOptions()
@@ -26,7 +26,7 @@ driver = webdriver.Chrome('{}/chromedriver'.format(chrome_driver_path), chrome_o
 
 브라우저에서 진행할 수 있는 다양한 행동을 함수를 통해서 수행 할 수 있다.
 
-```
+```python
 driver.get(url)                       # url로 이동
 driver.execute_script()               # java script 실행
 driver.set_window_position(100, 100)  # 브라우저 위치 설정
@@ -37,7 +37,7 @@ driver.page_source                    # 현재 html 가져오기, 함수가 아�
 때로는 웹 페이지가 로드 되기 전이여서 기다려야 할 때가 있다.
 자주 쓰일거 같아서 함수로 만들어 보았다.
 
-```
+```python
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
@@ -51,7 +51,7 @@ def wait(driver, name, type=By.NAME):
 
 Chrome option 부분에서 headless 모드로 실행(실제 동작하는 모습을 보여주지 않음)한다던지 프록시 설정을 진행할 수도 있다.
 
-```
+```python
 options.add_argument('--proxy-server=%s' % PROXY)
 options.add_argument('headless')
 ``` 

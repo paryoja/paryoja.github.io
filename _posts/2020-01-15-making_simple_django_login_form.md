@@ -42,7 +42,8 @@ class BookLogoutView(auth_views.LogoutView):
 ```
 
 Template 에서는 단순한 로그인 폼을 보여주었다. 
-```html
+```
+{% \raw %}
 {% extends 'book/base/base.html' %}
 
 {% block body %}
@@ -53,6 +54,7 @@ Template 에서는 단순한 로그인 폼을 보여주었다.
         <input type="submit" value="로그인"/>
     </form>
 {% endblock %}
+{% \endraw %}
 ```
 
 이 파일은 기본적으로 'registration/login.html'로 위치시키면 되고, default value를 쓰기 싫다면 `BookLoginView`의 `template_name`을 overriding 해주면 된다.

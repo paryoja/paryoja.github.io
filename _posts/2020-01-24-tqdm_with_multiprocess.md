@@ -8,10 +8,10 @@ tags:
 last_modified_at: 2020-01-24T12:58
 ---
 
-출처: [https://stackoverflow.com/](https://stackoverflow.com/questions/41920124/multiprocessing-use-tqdm-to-display-a-progress-bar)
-
 Progress bar를 표시하는 라이브러리인 TQDM을 쓸 때,
 작업들이 오래 걸려서 multiprocess를 같이 사용하는 경우 다음과 같이 사용 가능하다. 
+출처: [https://stackoverflow.com/](https://stackoverflow.com/questions/41920124/multiprocessing-use-tqdm-to-display-a-progress-bar)
+
 
 ```python
 from multiprocessing import Pool

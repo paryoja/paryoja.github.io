@@ -37,4 +37,4 @@ navigation_pages:
   - posts.md
   - about.md
   - tags.md
-  - cv.md
+#  - cv.md

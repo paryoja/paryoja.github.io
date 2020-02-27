@@ -23,6 +23,7 @@ author:
   name: "Yoonjae Park"
 github_username: "paryoja"
 logo: # path of site logo, e.g. "/assets/images/logo.png"
+google_analytics: UA-158963477-1
 search: # true, false (default)
 search_full_content: false # true, false (default)
 search_provider: # lunr (default), algolia

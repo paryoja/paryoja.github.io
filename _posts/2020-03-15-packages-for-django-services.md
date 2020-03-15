@@ -27,11 +27,11 @@ runserver_plus를 쓰기 위해서는 Werkzeug 가 설치 되어 있어야 한�
 RESP API를 만들기 쉽게 만들기를 도와주는 프레임워크. 
 약간의 코딩으로 데이터를 조작하는 API를 만들고 페이지에서 바로 테스트도 가능하다.
 
-##[django-allauth](https://github.com/pennersr/django-allauth)
+## [django-allauth](https://github.com/pennersr/django-allauth)
 페이스북 트위터 등등등의 소셜 네트워크 뿐만 아니라 Github, daum등의 로그인도 제공한다.
 
-##[django-model-utils](https://github.com/jazzband/django-model-utils)
+## [django-model-utils](https://github.com/jazzband/django-model-utils)
 장고 Model에 추가적인 필드를 제공하는 유틸리티.
 
-##[django-crispy-forms](https://github.com/django-crispy-forms/django-crispy-forms)
+## [django-crispy-forms](https://github.com/django-crispy-forms/django-crispy-forms)
 장고 폼을 다양한 형태로 예쁘게 바꾸어주는 역할을 한다.

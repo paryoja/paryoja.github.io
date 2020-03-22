@@ -11,7 +11,7 @@ last_modified_at: 2020-03-22T22:24
 Windows에서 pre-commit 설정을 하니 pre-commit 파일 경로가 linux 방식으로 작성이 되어 있었다.
 그래서 python을 못찾겠다고 메시지가 나왔는데,
 
-```shell script
+```
 #!C:/Users/paryoja/AppData/Local/Microsoft/WindowsApps/python.exe
 ```
 

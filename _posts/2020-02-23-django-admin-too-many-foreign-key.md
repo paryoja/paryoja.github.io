@@ -30,3 +30,11 @@ class RatingAdmin(admin.ModelAdmin):
 
 admin.site.register(models.Rating, RatingAdmin)
 ```
+
+데코레이터를 쓰면 다음과 같이 더 간단하게 표현 가능하다
+
+```python
+@admin.reister(models.Rating)
+class RatingAdmin(admin.ModelAdmin):
+    raw_id_fields = ("image",)
+```

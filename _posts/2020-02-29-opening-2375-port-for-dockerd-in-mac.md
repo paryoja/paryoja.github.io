@@ -17,9 +17,10 @@ Mac용 Docker Desktop에는 TCP 소켓여는 옵션이 없다는 것을 깨달�
 
 `brew install socat`으로 socat 설치 후
 
-```shell script
+```
 socat TCP-LISTEN:2375,reuseaddr,fork UNIX-CONNECT:/var/run/docker.sock &
 ```
+
 으로 2375 TCP 포트로 /var/run/docker.sock를 연결해주었다.
 
 지금 windows 컴의 elastic search configure 파일을 

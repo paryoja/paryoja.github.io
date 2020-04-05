@@ -1,5 +1,5 @@
 ---
-title: "Serving Deep learning model"
+title: "Serving Deep Learning Model"
 date: 2020-02-07T22:04
 categories:
   - Essay

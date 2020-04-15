@@ -1,47 +1,50 @@
 ---
-title: "Pre-commit setting in Windows"
-date: 2020-03-22T22:24
+title: "Custom Tensorflow Projector"
+date: 2020-04-16T22:31
 categories:
   - Essay
 tags:
-  - Django
-last_modified_at: 2020-03-22T22:24
+  - Tensorflow
+last_modified_at: 2020-04-16T22:31
 ---
 
-Windows에서 pre-commit 설정을 하니 pre-commit 파일 경로가 linux 방식으로 작성이 되어 있었다.
-그래서 python을 못찾겠다고 메시지가 나왔는데,
+Tensorflow의 [projector](https://projector.tensorflow.org/) 코드가 [Github](https://github.com/tensorflow/embedding-projector-standalone)에 공개되어 있었다.
+Nginx에 물려서 띄우니 뜨는걸 볼 수 있었다.
+같은 서버에 static file로 포맷에 맞는 embedding 파일과 setting 파일을 업로드 해두면, url로 그 데이터를 바로 projector에 띄울 수 있었다.
 
+docker-compose.yml
 ```
-#!C:/Users/paryoja/AppData/Local/Microsoft/WindowsApps/python.exe
+version: "3"
+
+services:
+    nginx:
+      image:
+        "nginx:latest"
+      ports:
+        - "30080:80"
+      volumes:
+        - ./config/nginx:/etc/nginx/conf.d
+        - ./:/work
+      command: ["nginx", "-g", "daemon off;"]
 ```
 
-이런 식으로 하면 windows 경로 세팅도 적용되는 것을 알 수 있었다.
-가끔 flake8 같은 걸 못찾거나 하면 path 설정을 통해서 flake8 위치를 추가해주고 껏다 키니 잘 되는 것을 볼 수 있었다.
-위치 찾는 방법은  `where flake8` 을 사용하면 되는 듯 
+nginx.conf
+```
+server {
+  listen 80;
+  server_name localhost;
 
+  access_log /work/log/nginx/access.log;
+  error_log /work/log/nginx/error.log;
 
-다음은 pre-commit 세팅하는 `.pre-commit-config.yaml` 파일 내용.
-Black 인지 체크하는 것이나, 간단한 unit-test도 붙여보면 좋을듯.
+  location /static/ {
+    alias /work/static/;
+  }
 
-```yaml
-exclude: 'docs|node_modules|migrations|.git|.tox'
-default_stages: [commit]
-fail_fast: true
+  location / {
+    root   /usr/share/nginx/html;
+    try_files $uri $uri/ /index.html;
+  }
 
-repos:
--   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: master
-    hooks:
-      - id: trailing-whitespace
-        files: (^|/)a/.+\.(py|html|sh|css|js)$
-
--   repo: local
-    hooks:
-      - id: flake8
-        name: flake8
-        entry: flake8
-        language: python
-        types: [python]
-        args: ['--config=setup.cfg']
-
-``` 
+}
+```

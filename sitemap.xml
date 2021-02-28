@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://paryoja.github.io/2020-01-04-starting-blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-01-05-2fa-auth-github/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-01-05-free-services-in-Azure/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-01-05-serving-static-files/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-01-12-crawling-with-selenium/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-01-12-setting-squid-proxy/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-01-15-making_simple_django_login_form/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-01-24-tqdm_with_multiprocess/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-02-02-Towards-a-Human-like-Open-Domain-Chatbot/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-02-07-Serving-Deeplearning-models-free/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-02-09-get-settings-from-django-settings/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-02-23-django-admin-too-many-foreign-key/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-02-29-opening-2375-port-for-dockerd-in-mac/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-03-01-setting-elastic-search-kibana/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-03-08-using-cookie-cutter/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-03-08-draw_diagram_with_draw_io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-03-15-packages-for-django-services/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-03-22-pre-commit-setting-in-windows/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-04-15-custom-tensorflow-projector/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-05-01-features-of-cpp/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-05-17-codejam-qualification/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-09-20-inhouse-services/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-09-20-mongodb/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2020-11-12-mac-git/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/2021-02-28-changed-to-gatsby/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://paryoja.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paryoja.github.io/using-typescript/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>

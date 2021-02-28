@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yoonjae Park's Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://paryoja.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 28 Feb 2021 14:04:06 GMT</lastBuildDate><item><title><![CDATA[Changed to Gatsby]]></title><description><![CDATA[블로그 관리를 또 한동안 안하다가 괜히 react를 공부한단 핑게로 gatsby로 옮겨봤다. 아무래도 react도 정확히 모르는 상황이라서 적용이 어렵긴 했고, tutorial…]]></description><link>https://paryoja.github.io/2021-02-28-changed-to-gatsby/</link><guid isPermaLink="false">https://paryoja.github.io/2021-02-28-changed-to-gatsby/</guid><pubDate>Sun, 28 Feb 2021 21:16:03 GMT</pubDate><content:encoded>&lt;p&gt;블로그 관리를 또 한동안 안하다가 괜히 react를 공부한단 핑게로 gatsby로 옮겨봤다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yoonjae Park's Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://paryoja.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 28 Feb 2021 14:11:07 GMT</lastBuildDate><item><title><![CDATA[Changed to Gatsby]]></title><description><![CDATA[블로그 관리를 또 한동안 안하다가 괜히 react를 공부한단 핑게로 gatsby로 옮겨봤다. 아무래도 react도 정확히 모르는 상황이라서 적용이 어렵긴 했고, tutorial…]]></description><link>https://paryoja.github.io/2021-02-28-changed-to-gatsby/</link><guid isPermaLink="false">https://paryoja.github.io/2021-02-28-changed-to-gatsby/</guid><pubDate>Sun, 28 Feb 2021 21:16:03 GMT</pubDate><content:encoded>&lt;p&gt;블로그 관리를 또 한동안 안하다가 괜히 react를 공부한단 핑게로 gatsby로 옮겨봤다.&lt;/p&gt;
 &lt;p&gt;아무래도 react도 정확히 모르는 상황이라서 적용이 어렵긴 했고, tutorial도 당장 내가 만들고 싶은 블로그의 형태와는 한참 떨어져있었으며 몇몇 template은 설치부터 쉽지 않았다.&lt;/p&gt;
 &lt;p&gt;그래서 가장 간단한 형태의 블로그로부터 다시 시작해보려고 한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mac에 Git 설치하기]]></title><description><![CDATA[당연히 git이 설치 되어 있을 줄 알고 mac terminal에 git을 쳤지만  라는 에러가 떴다. 검색해보니  라는 명령어로 해결 가능. 다만 gui 환경에서 프롬프트가 뜨니 그걸 진행시켜야한다.]]></description><link>https://paryoja.github.io/2020-11-12-mac-git/</link><guid isPermaLink="false">https://paryoja.github.io/2020-11-12-mac-git/</guid><pubDate>Wed, 11 Nov 2020 15:09:00 GMT</pubDate><content:encoded>&lt;p&gt;당연히 git이 설치 되어 있을 줄 알고 mac terminal에 git을 쳤지만 &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -359,7 +359,17 @@ driver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;page_source 
         &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Chrome option 부분에서 headless 모드로 실행(실제 동작하는 모습을 보여주지 않음)한다던지 프록시 설정을 진행할 수도 있다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;options&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;add_argument&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;--proxy-server=%s&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; PROXY&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-options&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;add_argument&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;headless&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Serving static files]]></title><description><![CDATA[기존에는 Django 자체의 web server 기능으로 디버깅을 하다가 
+options&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;add_argument&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;headless&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Free Sevices in Azure]]></title><description><![CDATA[Azure에서 체험판 계정을 통해 무료로 생성가능한 인스턴스를 생성했으나 
+구성이 무료구성과 차이가 있어서 과금이 되었다.
+다행히 크레딧 제공받은 것으로 커버가 가능했지만, 인스턴스 생성시에
+무료 과금되는 부분이 명시가 되지 않아서 (AWS…]]></description><link>https://paryoja.github.io/2020-01-05-free-services-in-Azure/</link><guid isPermaLink="false">https://paryoja.github.io/2020-01-05-free-services-in-Azure/</guid><pubDate>Sun, 05 Jan 2020 08:23:00 GMT</pubDate><content:encoded>&lt;p&gt;Azure에서 체험판 계정을 통해 무료로 생성가능한 인스턴스를 생성했으나
+구성이 무료구성과 차이가 있어서 과금이 되었다.
+다행히 크레딧 제공받은 것으로 커버가 가능했지만, 인스턴스 생성시에
+무료 과금되는 부분이 명시가 되지 않아서 (AWS에서는 무료 구성이 있었던거 같은데)
+지원에 문의하니 free service를 입력하고 나오는 것대로 하면 된다고 한다.
+free service를 입력했으나 검색이 안되서 “무료 서비스”로 검색하니 나온다.
+인스턴스 하나랑 RDB하나 생성해야겠다.
+&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Serving static files]]></title><description><![CDATA[기존에는 Django 자체의 web server 기능으로 디버깅을 하다가 
 aws 환경에서는 Debug를 false로 세팅해야겠다 싶어서 변경했다.
 다른건 잘 나오는데 css과 같은 static file…]]></description><link>https://paryoja.github.io/2020-01-05-serving-static-files/</link><guid isPermaLink="false">https://paryoja.github.io/2020-01-05-serving-static-files/</guid><pubDate>Sun, 05 Jan 2020 08:23:00 GMT</pubDate><content:encoded>&lt;p&gt;기존에는 Django 자체의 web server 기능으로 디버깅을 하다가
 aws 환경에서는 Debug를 false로 세팅해야겠다 싶어서 변경했다.
@@ -388,17 +398,7 @@ aws 환경에서는 Debug를 false로 세팅해야겠다 싶어서 변경했다.
 &lt;li&gt;manage.py collectstatic 수행&lt;/li&gt;
 &lt;li&gt;nginx location 추가&lt;/li&gt;
 &lt;li&gt;각 엔진 재시작&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Free Sevices in Azure]]></title><description><![CDATA[Azure에서 체험판 계정을 통해 무료로 생성가능한 인스턴스를 생성했으나 
-구성이 무료구성과 차이가 있어서 과금이 되었다.
-다행히 크레딧 제공받은 것으로 커버가 가능했지만, 인스턴스 생성시에
-무료 과금되는 부분이 명시가 되지 않아서 (AWS…]]></description><link>https://paryoja.github.io/2020-01-05-free-services-in-Azure/</link><guid isPermaLink="false">https://paryoja.github.io/2020-01-05-free-services-in-Azure/</guid><pubDate>Sun, 05 Jan 2020 08:23:00 GMT</pubDate><content:encoded>&lt;p&gt;Azure에서 체험판 계정을 통해 무료로 생성가능한 인스턴스를 생성했으나
-구성이 무료구성과 차이가 있어서 과금이 되었다.
-다행히 크레딧 제공받은 것으로 커버가 가능했지만, 인스턴스 생성시에
-무료 과금되는 부분이 명시가 되지 않아서 (AWS에서는 무료 구성이 있었던거 같은데)
-지원에 문의하니 free service를 입력하고 나오는 것대로 하면 된다고 한다.
-free service를 입력했으나 검색이 안되서 “무료 서비스”로 검색하니 나온다.
-인스턴스 하나랑 RDB하나 생성해야겠다.
-&lt;/p&gt;</content:encoded></item><item><title><![CDATA[2FA Authentication for github]]></title><description><![CDATA[Google등 검색 엔진에 검색이 되도록 하려는 중에 왠지 걱정이 되어서 two-factor authentication을 활성화 시켰다.
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[2FA Authentication for github]]></title><description><![CDATA[Google등 검색 엔진에 검색이 되도록 하려는 중에 왠지 걱정이 되어서 two-factor authentication을 활성화 시켰다.
 덕분에 기존 git push 시에 인증이 안되는 이슈가 발생.
 github 안내 페이지에
 보니 ssh key…]]></description><link>https://paryoja.github.io/2020-01-05-2fa-auth-github/</link><guid isPermaLink="false">https://paryoja.github.io/2020-01-05-2fa-auth-github/</guid><pubDate>Sat, 04 Jan 2020 15:23:00 GMT</pubDate><content:encoded>&lt;p&gt;Google등 검색 엔진에 검색이 되도록 하려는 중에 왠지 걱정이 되어서 two-factor authentication을 활성화 시켰다.

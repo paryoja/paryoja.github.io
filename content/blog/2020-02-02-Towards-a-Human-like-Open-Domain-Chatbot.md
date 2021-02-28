@@ -15,7 +15,4 @@ last_modified_at: 2020-02-02T21:04
 다만 사람의 뇌는 저 방대한 데이터를 136번씩 읽지 않고도 대화를 수행해 낼 수 있으니 발견하지 못한 더 쉬운 방법이 있기는 할텐데,
 어디서 최적화를 해야할지가 관건일듯 하다.
 
-
-{% raw %}
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS62uhnilNc9AOuxqexSO1tDpG6dg-BOjrIN2OxVWdjFU4l6yqxLUyDvmeAcOcsj61nGF9e3KAZM7lk/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-{% endraw %}

@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-pages-index-js","path":"/","result":{"pageContext":{}},"staticQueryHashes":[]}
+{"componentChunkName":"component---src-pages-index-js","path":"/","result":{"data":{"site":{"siteMetadata":{"title":"Yoonjae Park's Blog"}},"allMarkdownRemark":{"nodes":[{"excerpt":"Hi","fields":{"slug":"/changed-to-gatsby/"},"frontmatter":{"date":"February 28, 2021","title":"Changed to Gatsby","description":"Hello World"}}]}},"pageContext":{}},"staticQueryHashes":["2091923466","2841359383"]}

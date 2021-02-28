@@ -27,7 +27,6 @@ const Layout = ({ location, title, children }) => {
     // identifier: post.id,
     // title: post.title,
   };
-  console.log(children);
 
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>

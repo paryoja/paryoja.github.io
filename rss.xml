@@ -1,1 +1,431 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yoonjae Park's Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 28 Feb 2021 12:48:56 GMT</lastBuildDate><item><title><![CDATA[Changed to Gatsby]]></title><description><![CDATA[Hi]]></description><link>https://gatsby-starter-blog-demo.netlify.app/changed-to-gatsby/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.app/changed-to-gatsby/</guid><pubDate>Sun, 28 Feb 2021 21:16:03 GMT</pubDate><content:encoded>&lt;p&gt;Hi&lt;/p&gt;</content:encoded></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Yoonjae Park's Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://paryoja.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 28 Feb 2021 14:02:09 GMT</lastBuildDate><item><title><![CDATA[Changed to Gatsby]]></title><description><![CDATA[블로그 관리를 또 한동안 안하다가 괜히 react를 공부한단 핑게로 gatsby로 옮겨봤다. 아무래도 react도 정확히 모르는 상황이라서 적용이 어렵긴 했고, tutorial…]]></description><link>https://paryoja.github.io/2021-02-28-changed-to-gatsby/</link><guid isPermaLink="false">https://paryoja.github.io/2021-02-28-changed-to-gatsby/</guid><pubDate>Sun, 28 Feb 2021 21:16:03 GMT</pubDate><content:encoded>&lt;p&gt;블로그 관리를 또 한동안 안하다가 괜히 react를 공부한단 핑게로 gatsby로 옮겨봤다.&lt;/p&gt;
+&lt;p&gt;아무래도 react도 정확히 모르는 상황이라서 적용이 어렵긴 했고, tutorial도 당장 내가 만들고 싶은 블로그의 형태와는 한참 떨어져있었으며 몇몇 template은 설치부터 쉽지 않았다.&lt;/p&gt;
+&lt;p&gt;그래서 가장 간단한 형태의 블로그로부터 다시 시작해보려고 한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mac에 Git 설치하기]]></title><description><![CDATA[당연히 git이 설치 되어 있을 줄 알고 mac terminal에 git을 쳤지만  라는 에러가 떴다. 검색해보니  라는 명령어로 해결 가능. 다만 gui 환경에서 프롬프트가 뜨니 그걸 진행시켜야한다.]]></description><link>https://paryoja.github.io/2020-11-12-mac-git/</link><guid isPermaLink="false">https://paryoja.github.io/2020-11-12-mac-git/</guid><pubDate>Wed, 11 Nov 2020 15:09:00 GMT</pubDate><content:encoded>&lt;p&gt;당연히 git이 설치 되어 있을 줄 알고 mac terminal에 git을 쳤지만 &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;라는 에러가 떴다.&lt;/p&gt;
+&lt;p&gt;검색해보니 &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;xcode-select --install&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;라는 명령어로 해결 가능.&lt;/p&gt;
+&lt;p&gt;다만 gui 환경에서 프롬프트가 뜨니 그걸 진행시켜야한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mongo DB Login]]></title><description><![CDATA[나무위키 덤프를 mongo db로 복구하려고 하였으나 분명 root 계정을 으로 줬음에도 로그인이 안되서 원인을 한참 찾아보았다.
+인증 정보 DB를 지정해줘야 제대로 계정을 찾아준다.]]></description><link>https://paryoja.github.io/2020-09-20-mongodb/</link><guid isPermaLink="false">https://paryoja.github.io/2020-09-20-mongodb/</guid><pubDate>Sat, 26 Sep 2020 10:16:00 GMT</pubDate><content:encoded>&lt;p&gt;나무위키 덤프를 mongo db로 복구하려고 하였으나 분명 root 계정을 &lt;code class=&quot;language-text&quot;&gt;--username&lt;/code&gt;으로 줬음에도 로그인이 안되서 원인을 한참 찾아보았다.
+인증 정보 DB를 지정해줘야 제대로 계정을 찾아준다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;–-authenticationDatabase “admin”&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Codejam Qualification Round Review]]></title><description><![CDATA[Nas를 산 기념으로 다양한 서비스를 설치해보는 중이다. 일단 다양한 서비스를 설치하려니 서비스에 대한 routing이 필요하다고 느껴진다.
+어떻게 깔끔하게 할 수 있을지 고민 중. 현재 설치한 기능 postgres confluence jira]]></description><link>https://paryoja.github.io/2020-09-20-inhouse-services/</link><guid isPermaLink="false">https://paryoja.github.io/2020-09-20-inhouse-services/</guid><pubDate>Sun, 20 Sep 2020 05:15:00 GMT</pubDate><content:encoded>&lt;p&gt;Nas를 산 기념으로 다양한 서비스를 설치해보는 중이다.&lt;/p&gt;
+&lt;p&gt;일단 다양한 서비스를 설치하려니 서비스에 대한 routing이 필요하다고 느껴진다.
+어떻게 깔끔하게 할 수 있을지 고민 중.&lt;/p&gt;
+&lt;p&gt;현재 설치한 기능&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;postgres&lt;/li&gt;
+&lt;li&gt;confluence&lt;/li&gt;
+&lt;li&gt;jira&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Codejam Qualification Round Review]]></title><description><![CDATA[Codejam 한다고 그렇게 난리 쳐놓고 라운드 2 발린 기념으로 처음부터 리뷰를 해야겠다고 마음을 먹었다. P1 Vestigium 먼저 trace는 대각 성분의 합. Latin square는 1부터 N 사이의 숫자로 이뤄진 N by N…]]></description><link>https://paryoja.github.io/2020-05-17-codejam-qualification/</link><guid isPermaLink="false">https://paryoja.github.io/2020-05-17-codejam-qualification/</guid><pubDate>Sat, 16 May 2020 16:57:00 GMT</pubDate><content:encoded>&lt;p&gt;Codejam 한다고 그렇게 난리 쳐놓고 라운드 2 발린 기념으로 처음부터 리뷰를 해야겠다고 마음을 먹었다.&lt;/p&gt;
+&lt;h1&gt;&lt;a href=&quot;https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/000000000020993c&quot;&gt;P1 Vestigium&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;먼저 trace는 대각 성분의 합. Latin square는 1부터 N 사이의 숫자로 이뤄진 N by N 행렬 각 값이 그 값이 존재하는 행과 열에서 유일한 경우를 의미한다.
+스도쿠를 떠올리면 될거 같다. 스도쿠는 N이 9인 latin square의 special case.
+이 문제는 그냥 주어진 행렬에 행이나 열에 중복된 element가 몇개인지를 세는 일을 하면 된다. 추가로 trace 값을 구하는 것 까지.
+Element 값이 항상 1에서 N 사이 값이므로 hash set을 이용하여 겹치는 값이 존재하는지를 각 행, 열 별로 따져보면 된다.&lt;/p&gt;
+&lt;h1&gt;&lt;a href=&quot;https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/0000000000209a9f&quot;&gt;P2 Nesting Depth&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;숫자의 나열이 주어지고, 그 숫자는 딱 그만큼의 괄호로 둘러쌓여져 있어야 한다.
+이때 괄호들은 모두 쌍이 있어야하고, 사용한 괄호수가 최소가 되어야 한다.
+같은 숫자가 이어지면 그 사이에는 괄호가 없어도 되고, 숫자가 커지는 부분에는 그 차이만큼의 괄호를 열어주거나 닫아주면 최소한의 괄호를 사용하여 표현할 수 있다.
+구현을 편하게 하기 위해서 맨 처음과 맨 마지막에 0을 붙여놓고 짜면, 예외를 처리해야하는 수고를 덜 수 있다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Features of CPP]]></title><description><![CDATA[Codejam 준비를 하다가 Korotkevich의 코드를 보는데, 모르는 cpp 문법이 있어서 정리해본다. auto keyword auto는 변수의 타입을 추론해서 설정하는 키워드 bits/stdc++.h 다양한 header…]]></description><link>https://paryoja.github.io/2020-05-01-features-of-cpp/</link><guid isPermaLink="false">https://paryoja.github.io/2020-05-01-features-of-cpp/</guid><pubDate>Sat, 02 May 2020 04:50:00 GMT</pubDate><content:encoded>&lt;p&gt;Codejam 준비를 하다가 Korotkevich의 코드를 보는데, 모르는 cpp 문법이 있어서 정리해본다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;auto keyword&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;auto는 변수의 타입을 추론해서 설정하는 키워드&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;bits/stdc++.h&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;다양한 header를 미리 모아둔 header&lt;/li&gt;
+&lt;li&gt;mac에는 없어서 그냥 /usr/local/include에 만들어 주었다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;ios::sync_with_stdio(false)&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;cin.tie(0)&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;cin과 cout의 성능 관련&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[&amp;#x26;] 키워드&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;lambda function은 &lt;a href=&quot;&quot;&gt;&lt;/a&gt;{} 으로 정의&lt;/li&gt;
+&lt;li&gt;[&amp;#x26;] body에서 쓰이는 모든 변수나 상수를 참조로 캡처하고 현재 객체를 참조로 캡처.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;for each loop&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;for (auto &amp;amp;p : check)&lt;/code&gt; 와 같이 for each로 loop을 돌 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Custom Tensorflow Projector]]></title><description><![CDATA[Tensorflow의 projector 코드가 Github에 공개되어 있었다.
+Nginx에 물려서 띄우니 뜨는걸 볼 수 있었다.
+같은 서버에 static file로 포맷에 맞는 embedding 파일과 setting 파일을 업로드 해두면, url…]]></description><link>https://paryoja.github.io/2020-04-15-custom-tensorflow-projector/</link><guid isPermaLink="false">https://paryoja.github.io/2020-04-15-custom-tensorflow-projector/</guid><pubDate>Thu, 16 Apr 2020 13:31:00 GMT</pubDate><content:encoded>&lt;p&gt;Tensorflow의 &lt;a href=&quot;https://projector.tensorflow.org/&quot;&gt;projector&lt;/a&gt; 코드가 &lt;a href=&quot;https://github.com/tensorflow/embedding-projector-standalone&quot;&gt;Github&lt;/a&gt;에 공개되어 있었다.
+Nginx에 물려서 띄우니 뜨는걸 볼 수 있었다.
+같은 서버에 static file로 포맷에 맞는 embedding 파일과 setting 파일을 업로드 해두면, url로 그 데이터를 바로 projector에 띄울 수 있었다.&lt;/p&gt;
+&lt;p&gt;docker-compose.yml&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;version: &amp;quot;3&amp;quot;
+
+services:
+    nginx:
+      image:
+        &amp;quot;nginx:latest&amp;quot;
+      ports:
+        - &amp;quot;30080:80&amp;quot;
+      volumes:
+        - ./config/nginx:/etc/nginx/conf.d
+        - ./:/work
+      command: [&amp;quot;nginx&amp;quot;, &amp;quot;-g&amp;quot;, &amp;quot;daemon off;&amp;quot;]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;nginx.conf&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;server {
+  listen 80;
+  server_name localhost;
+
+  access_log /work/log/nginx/access.log;
+  error_log /work/log/nginx/error.log;
+
+  location /static/ {
+    alias /work/static/;
+  }
+
+  location / {
+    root   /usr/share/nginx/html;
+    try_files $uri $uri/ /index.html;
+  }
+
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Pre-commit setting in Windows]]></title><description><![CDATA[Windows에서 pre-commit 설정을 하니 pre-commit 파일 경로가 linux 방식으로 작성이 되어 있었다.
+그래서 python을 못찾겠다고 메시지가 나왔는데, 이런 식으로 하면 windows…]]></description><link>https://paryoja.github.io/2020-03-22-pre-commit-setting-in-windows/</link><guid isPermaLink="false">https://paryoja.github.io/2020-03-22-pre-commit-setting-in-windows/</guid><pubDate>Sun, 22 Mar 2020 13:24:00 GMT</pubDate><content:encoded>&lt;p&gt;Windows에서 pre-commit 설정을 하니 pre-commit 파일 경로가 linux 방식으로 작성이 되어 있었다.
+그래서 python을 못찾겠다고 메시지가 나왔는데,&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;#!C:/Users/paryoja/AppData/Local/Microsoft/WindowsApps/python.exe&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이런 식으로 하면 windows 경로 세팅도 적용되는 것을 알 수 있었다.
+가끔 flake8 같은 걸 못찾거나 하면 path 설정을 통해서 flake8 위치를 추가해주고 껏다 키니 잘 되는 것을 볼 수 있었다.
+위치 찾는 방법은  &lt;code class=&quot;language-text&quot;&gt;where flake8&lt;/code&gt; 을 사용하면 되는 듯 &lt;/p&gt;
+&lt;p&gt;다음은 pre-commit 세팅하는 &lt;code class=&quot;language-text&quot;&gt;.pre-commit-config.yaml&lt;/code&gt; 파일 내용.
+Black 인지 체크하는 것이나, 간단한 unit-test도 붙여보면 좋을듯.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;exclude&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;docs|node_modules|migrations|.git|.tox&apos;&lt;/span&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;default_stages&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;commit&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;fail_fast&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;true&lt;/span&gt;
+
+&lt;span class=&quot;token key atrule&quot;&gt;repos&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;   &lt;span class=&quot;token key atrule&quot;&gt;repo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; https&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;//github.com/pre&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;commit/pre&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;commit&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;hooks
+    &lt;span class=&quot;token key atrule&quot;&gt;rev&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; master
+    &lt;span class=&quot;token key atrule&quot;&gt;hooks&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; trailing&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;whitespace
+        &lt;span class=&quot;token key atrule&quot;&gt;files&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; (^&lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;/)a/.+\.(py&lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;html&lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;sh&lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;css&lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;js)$
+
+&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;   &lt;span class=&quot;token key atrule&quot;&gt;repo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; local
+    &lt;span class=&quot;token key atrule&quot;&gt;hooks&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; flake8
+        &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; flake8
+        &lt;span class=&quot;token key atrule&quot;&gt;entry&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; flake8
+        &lt;span class=&quot;token key atrule&quot;&gt;language&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; python
+        &lt;span class=&quot;token key atrule&quot;&gt;types&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;python&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;--config=setup.cfg&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Packages for Django services]]></title><description><![CDATA[Cookie cutter의 Django…]]></description><link>https://paryoja.github.io/2020-03-15-packages-for-django-services/</link><guid isPermaLink="false">https://paryoja.github.io/2020-03-15-packages-for-django-services/</guid><pubDate>Sun, 15 Mar 2020 03:43:00 GMT</pubDate><content:encoded>&lt;p&gt;Cookie cutter의 Django 프로젝트를 생성 했을때, 너무나도 많은 다양한 새로운 기능들이 있어서,
+그냥 정말 하나도 설치되어 있지 않은 상태에서 하나씩 적용을 해보는 중이다.
+그러다가 발견한 다양한 유용한 패키지의 역할을 정리하기 위한 글.&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://github.com/joke2k/django-environ&quot;&gt;django-environ&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;웹 서비스를 하다보면, 다양한 환경 변수를 사용하는 일이 많아지고, 그것을 일일히 관리하기에 어려움이 생김.
+테스트용 환경이나 배포용 환경에서 쓰는 옵션들이 다르고 이를 환경변수로 넣어두고 사용하는데,
+개수가 많아지면 이를 관리하고 사용하기에 어려움이 생기므로 이를 돕기 위한 패키지.
+&lt;a href=&quot;https://www.12factor.net/ko/&quot;&gt;12factor 방법론&lt;/a&gt;에 따라 만들어 졌다고 한다.&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://django-extensions.readthedocs.io/en/latest/&quot;&gt;django-extensions&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Django 서버 디버깅을 위한 기능을 쉽게 사용 할 수 있도록 runserver&lt;em&gt;plus 기능을 비롯한 다양한 편의 기능을 제공한다.
+runserver&lt;/em&gt;plus를 쓰기 위해서는 Werkzeug 가 설치 되어 있어야 한다.
+이 기능으로 서버를 실행 시키면 에러가 발생 했을 때 다양한 디버깅용 정보를 제공해준다.&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://github.com/encode/django-rest-framework&quot;&gt;django rest framework&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;RESP API를 만들기 쉽게 만들기를 도와주는 프레임워크.
+약간의 코딩으로 데이터를 조작하는 API를 만들고 페이지에서 바로 테스트도 가능하다.&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://github.com/pennersr/django-allauth&quot;&gt;django-allauth&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;페이스북 트위터 등등등의 소셜 네트워크 뿐만 아니라 Github, daum등의 로그인도 제공한다.&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://github.com/jazzband/django-model-utils&quot;&gt;django-model-utils&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;장고 Model에 추가적인 필드를 제공하는 유틸리티.&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://github.com/django-crispy-forms/django-crispy-forms&quot;&gt;django-crispy-forms&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;장고 폼을 다양한 형태로 예쁘게 바꾸어주는 역할을 한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Draw Diagram with Draw IO]]></title><description><![CDATA[Draw.io로 다이어그램을 그려볼까 하다가 blog에 추가할 수 있는지 알아보았다.
+일단은 저장을 github으로 하는 옵션이 있어서 github에 저장하고 그걸 불러다 쓰는 식으로 활용할 수 있었다.
+자세한 내용은 여기서. 이미지]]></description><link>https://paryoja.github.io/2020-03-08-draw_diagram_with_draw_io/</link><guid isPermaLink="false">https://paryoja.github.io/2020-03-08-draw_diagram_with_draw_io/</guid><pubDate>Sun, 08 Mar 2020 14:02:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.draw.io/&quot;&gt;Draw.io&lt;/a&gt;로 다이어그램을 그려볼까 하다가 blog에 추가할 수 있는지 알아보았다.
+일단은 저장을 github으로 하는 옵션이 있어서 github에 저장하고 그걸 불러다 쓰는 식으로 활용할 수 있었다.
+&lt;a href=&quot;https://github.com/jgraph/drawio/wiki/Embed-Diagrams&quot;&gt;자세한 내용&lt;/a&gt;은 여기서.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/sample.png&quot; alt=&quot;이미지&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Using Cookie Cutter for Django]]></title><description><![CDATA[Cookie cutter로 django 기본 세팅을 다시 해보았다.
+사이트를 만들어 보니 확실히 처음 시작부터 세팅해 놓아야하는 것들이 많은데, 이를 잘 세팅해 주었다. 아무래도 기존 사이트를 옮기는건 어려울 듯 하여, cookie cutter…]]></description><link>https://paryoja.github.io/2020-03-08-using-cookie-cutter/</link><guid isPermaLink="false">https://paryoja.github.io/2020-03-08-using-cookie-cutter/</guid><pubDate>Sun, 08 Mar 2020 12:11:00 GMT</pubDate><content:encoded>&lt;p&gt;Cookie cutter로 django 기본 세팅을 다시 해보았다.
+사이트를 만들어 보니 확실히 처음 시작부터 세팅해 놓아야하는 것들이 많은데, 이를 잘 세팅해 주었다.&lt;/p&gt;
+&lt;p&gt;아무래도 기존 사이트를 옮기는건 어려울 듯 하여, cookie cutter에서 설정하는 것들을 따라서 적용 시켜보고 있다.
+일단은 pylint, flake8 설정을 옮겼고, docker-compose에서 앞에서 설정한 세팅에 추가 세팅을 붙이는 경우 &amp;#x26;와 *로 지정하는
+문법을 배울 수 있었다. 역시 잘 짠 코드를 자주 읽어보고 배우는 것이 필요하다는 것을 느꼈다.&lt;/p&gt;
+&lt;p&gt;다음으로는 unittest code들을 따라해봐야겠다. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Setting Elastic Search & Kibana in a single node]]></title><description><![CDATA[ElasticSearch를 이용하여 namuwiki 분석을 진행해볼까 했는데, 일단 설치부터 진행해보았다.
+먼저 ElasticSearch 환경설정은  으로 하였고, Kibana 환경설정은 으로 하였다. Docker Compose…]]></description><link>https://paryoja.github.io/2020-03-01-setting-elastic-search-kibana/</link><guid isPermaLink="false">https://paryoja.github.io/2020-03-01-setting-elastic-search-kibana/</guid><pubDate>Sun, 01 Mar 2020 02:36:00 GMT</pubDate><content:encoded>&lt;p&gt;ElasticSearch를 이용하여 namuwiki 분석을 진행해볼까 했는데, 일단 설치부터 진행해보았다.
+먼저 ElasticSearch 환경설정은 &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;cluster.name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; es_test
+&lt;span class=&quot;token key atrule&quot;&gt;node.name&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; namu&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;token key atrule&quot;&gt;network&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;host&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0.0.0.0
+&lt;span class=&quot;token key atrule&quot;&gt;discovery.type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; single&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;node&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;으로 하였고,&lt;/p&gt;
+&lt;p&gt;Kibana 환경설정은&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;server&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5601&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;host&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0.0.0.0
+&lt;span class=&quot;token key atrule&quot;&gt;elasticsearch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;hosts&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;http://elasticsearch:9200&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;으로 하였다.&lt;/p&gt;
+&lt;p&gt;Docker Compose는 다음과 같이 하였는데, 원격의 pycharm에서 설정하는 것을 해보려고 설정파일을 docker에 같이 말기 위해서
+Dockerfile을 썼었는데, 세팅한게 생각대로 동작하진 않아서 &lt;code class=&quot;language-text&quot;&gt;volums: - ./config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml&lt;/code&gt;으로 세팅해도 무방하다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;3&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token key atrule&quot;&gt;services&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;elasticsearch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; .
+      &lt;span class=&quot;token key atrule&quot;&gt;dockerfile&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ./Dockerfile
+    &lt;span class=&quot;token key atrule&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; ./elasticsearch/data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;/usr/share/elasticsearch/data
+    &lt;span class=&quot;token key atrule&quot;&gt;environment&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;ES_JAVA_OPTS&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;-Xmx2048m -Xms2048m&quot;&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; 9200&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9200&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; 9300&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9300&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;kibana&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token string&quot;&gt;&quot;kibana:7.6.0&quot;&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; ./config/kibana.yml&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;/usr/share/kibana/config/kibana.yml
+    &lt;span class=&quot;token key atrule&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; 5601&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5601&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;일단 ES와 Kibana가 잘 뜨는 것은 확인 했는데, 이제 실제 데이터를 넣고 분석하는 것을 해봐야겠다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Opening 2375 port for dockerd in Mac]]></title><description><![CDATA[Mac Mini에 Docker Desktop을 설치했고, windows 컴의 pycharm에서 tcp로 연결해서 쓰려고 했는데, 
+Mac용 Docker Desktop에는 TCP 소켓여는 옵션이 없다는 것을 깨달았다. 일단 brew…]]></description><link>https://paryoja.github.io/2020-02-29-opening-2375-port-for-dockerd-in-mac/</link><guid isPermaLink="false">https://paryoja.github.io/2020-02-29-opening-2375-port-for-dockerd-in-mac/</guid><pubDate>Sat, 29 Feb 2020 14:24:00 GMT</pubDate><content:encoded>&lt;p&gt;Mac Mini에 Docker Desktop을 설치했고, windows 컴의 pycharm에서 tcp로 연결해서 쓰려고 했는데,
+Mac용 Docker Desktop에는 TCP 소켓여는 옵션이 없다는 것을 깨달았다.&lt;/p&gt;
+&lt;p&gt;일단 brew도 안깔았었기 때문에
+&lt;code class=&quot;language-text&quot;&gt;/usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;&lt;/code&gt;
+로 brew 부터 설치하고&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;brew install socat&lt;/code&gt;으로 socat 설치 후&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;socat TCP-LISTEN:2375,reuseaddr,fork UNIX-CONNECT:/var/run/docker.sock &amp;amp;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;으로 2375 TCP 포트로 /var/run/docker.sock를 연결해주었다.&lt;/p&gt;
+&lt;p&gt;지금 windows 컴의 elastic search configure 파일을
+mini의 docker에 mount 해줘야하는데 그걸 어떻게 설정해야할지 알아봐야겠다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Django Admin Too Many Foreign Key]]></title><description><![CDATA[Django에서 이미지에 대한 Rating을 Foreign Key로 관리하다 보니, 이미지 수가 많아 짐에 따라 Admin 페이지에서
+변경할 때, 모든 이미지를 select box…]]></description><link>https://paryoja.github.io/2020-02-23-django-admin-too-many-foreign-key/</link><guid isPermaLink="false">https://paryoja.github.io/2020-02-23-django-admin-too-many-foreign-key/</guid><pubDate>Sun, 23 Feb 2020 03:20:00 GMT</pubDate><content:encoded>&lt;p&gt;Django에서 이미지에 대한 Rating을 Foreign Key로 관리하다 보니, 이미지 수가 많아 짐에 따라 Admin 페이지에서
+변경할 때, 모든 이미지를 select box로 제공하려다 보니 수정이 불가능해질 정도로 느려지는 경우가 있다.
+이럴때에는 raw&lt;em&gt;id&lt;/em&gt;fields를 활용하여 select box로 제공하지 않도록 설정 해줄 수 있다.
+&lt;a href=&quot;https://docs.djangoproject.com/en/3.0/ref/contrib/admin/#django.contrib.admin.ModelAdmin.raw_id_fields&quot;&gt;장고 Admin 설명&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;models.py&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;PokemonImage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;models&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Model&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    url &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; models&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;URLField&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;unique&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; max_length&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    title &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; models&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;CharField&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;max_length&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;PokemonRating&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;models&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Model&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    image &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; models&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ForeignKey&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;PokemonImage&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; on_delete&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;models&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;CASCADE&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;admin.py&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;RatingAdmin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;admin&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ModelAdmin&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    raw_id_fields &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;image&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+admin&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;site&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;register&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;models&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Rating&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; RatingAdmin&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;데코레이터를 쓰면 다음과 같이 더 간단하게 표현 가능하다&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token decorator annotation punctuation&quot;&gt;@admin&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;reister&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;models&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Rating&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;RatingAdmin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;admin&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ModelAdmin&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    raw_id_fields &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;image&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Get settings from Django settings]]></title><description><![CDATA[Django에서 setting으로 사용하고 있는 내용을 settings.py가 아닌 다른 곳에서 쓰기 위해서는 다음과 같이 할 수 있다.
+예를 들어 settings.py에 변수 값을 적어두고, 쓰려는 파일에서 다음과 같이 쓰면 된다.]]></description><link>https://paryoja.github.io/2020-02-09-get-settings-from-django-settings/</link><guid isPermaLink="false">https://paryoja.github.io/2020-02-09-get-settings-from-django-settings/</guid><pubDate>Sun, 09 Feb 2020 09:40:00 GMT</pubDate><content:encoded>&lt;p&gt;Django에서 setting으로 사용하고 있는 내용을 settings.py가 아닌 다른 곳에서 쓰기 위해서는 다음과 같이 할 수 있다.
+예를 들어 settings.py에 변수 값을 적어두고, 쓰려는 파일에서 다음과 같이 쓰면 된다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; django&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;conf &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; settings
+
+VERSION &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;getattr&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;settings&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;VERSION&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;0.0.1&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Serving Deep Learning Model]]></title><description><![CDATA[AWS, Azure, GCP로 Free tier로 서비스를 구성해본 내용을 정리해보았다.]]></description><link>https://paryoja.github.io/2020-02-07-Serving-Deeplearning-models-free/</link><guid isPermaLink="false">https://paryoja.github.io/2020-02-07-Serving-Deeplearning-models-free/</guid><pubDate>Fri, 07 Feb 2020 13:04:00 GMT</pubDate><content:encoded>&lt;p&gt;AWS, Azure, GCP로 Free tier로 서비스를 구성해본 내용을 정리해보았다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 58.26388888888889%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vRkXBiS45JaXaK7je1TgdaycFLPXo1yxDgqHPqerv9hGNt8hThSLVynRyqnPgK2o16YBEvGOPjuLy3U/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt; &lt;/div&gt;</content:encoded></item><item><title><![CDATA[Towards a Human-like Open-Domain Chatbot]]></title><description><![CDATA[구글에서 공개한 Towards a Human-like Open-Domain Chatbot 논문,
+Google AI Blog의 내용을 간단히 정리한 슬라이드 학습에만 GCP 가격으로 따졌을때 대략 1…]]></description><link>https://paryoja.github.io/2020-02-02-Towards-a-Human-like-Open-Domain-Chatbot/</link><guid isPermaLink="false">https://paryoja.github.io/2020-02-02-Towards-a-Human-like-Open-Domain-Chatbot/</guid><pubDate>Sun, 02 Feb 2020 12:04:00 GMT</pubDate><content:encoded>&lt;p&gt;구글에서 공개한 Towards a Human-like Open-Domain Chatbot &lt;a href=&quot;https://arxiv.org/abs/2001.09977&quot;&gt;논문&lt;/a&gt;,
+&lt;a href=&quot;https://ai.googleblog.com/2020/01/towards-conversational-agent-that-can.html&quot;&gt;Google AI Blog&lt;/a&gt;의 내용을 간단히 정리한 슬라이드&lt;/p&gt;
+&lt;p&gt;학습에만 GCP 가격으로 따졌을때 대략 17억원이 드는 실험을 여러번 했으니… 따라잡을수나 있는걸까.
+다만 사람의 뇌는 저 방대한 데이터를 136번씩 읽지 않고도 대화를 수행해 낼 수 있으니 발견하지 못한 더 쉬운 방법이 있기는 할텐데,
+어디서 최적화를 해야할지가 관건일듯 하다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 59.27083333333333%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vS62uhnilNc9AOuxqexSO1tDpG6dg-BOjrIN2OxVWdjFU4l6yqxLUyDvmeAcOcsj61nGF9e3KAZM7lk/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt; &lt;/div&gt;</content:encoded></item><item><title><![CDATA[Using TQDM with Multiprocess]]></title><description><![CDATA[Progress bar를 표시하는 라이브러리인 TQDM을 쓸 때,
+작업들이 오래 걸려서 multiprocess를 같이 사용하는 경우 다음과 같이 사용 가능하다. 
+출처: https://stackoverflow.com/]]></description><link>https://paryoja.github.io/2020-01-24-tqdm_with_multiprocess/</link><guid isPermaLink="false">https://paryoja.github.io/2020-01-24-tqdm_with_multiprocess/</guid><pubDate>Fri, 24 Jan 2020 03:58:00 GMT</pubDate><content:encoded>&lt;p&gt;Progress bar를 표시하는 라이브러리인 TQDM을 쓸 때,
+작업들이 오래 걸려서 multiprocess를 같이 사용하는 경우 다음과 같이 사용 가능하다.
+출처: &lt;a href=&quot;https://stackoverflow.com/questions/41920124/multiprocessing-use-tqdm-to-display-a-progress-bar&quot;&gt;https://stackoverflow.com/&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; multiprocessing &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Pool
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; time
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; tqdm
+
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;_foo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;my_number&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+   square &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; my_number &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; my_number
+   time&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;sleep&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+   &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; square 
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; __name__ &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;__main__&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;with&lt;/span&gt; Pool&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;processes&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; p&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        max_ &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;with&lt;/span&gt; tqdm&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;tqdm&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;total&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;max_&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; pbar&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; _ &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;enumerate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;imap_unordered&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;_foo&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; max_&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+                pbar&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;update&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Making Simple Django Login Form]]></title><description><![CDATA[Django를 이용해서 로그인/로그아웃 뷰를 만들다가, 이미 만들어져 있는 뷰를 활용할 수는 없을까 하던차에 원래 만들어져 있던 것들을 재활용해보기로 하였다.
+의 뷰를 상속받아 활용하였다. Sidebar…]]></description><link>https://paryoja.github.io/2020-01-15-making_simple_django_login_form/</link><guid isPermaLink="false">https://paryoja.github.io/2020-01-15-making_simple_django_login_form/</guid><pubDate>Wed, 15 Jan 2020 14:32:00 GMT</pubDate><content:encoded>&lt;p&gt;Django를 이용해서 로그인/로그아웃 뷰를 만들다가, 이미 만들어져 있는 뷰를 활용할 수는 없을까 하던차에 원래 만들어져 있던 것들을 재활용해보기로 하였다.
+&lt;code class=&quot;language-text&quot;&gt;django.contrib.auth&lt;/code&gt;의 뷰를 상속받아 활용하였다. Sidebar에서 지금 어떠한 위치에 있는지 알려주는 context를 넣고 싶어서
+get&lt;em&gt;context&lt;/em&gt;data 만을 overriding 하였고, logout시에는 index 페이지로 돌아가게 만들고 위에 logout이 제대로 되었음을 나타내는 문구를 주기 위해서
+&lt;code class=&quot;language-text&quot;&gt;&amp;#39;logged_out&amp;#39;&lt;/code&gt;을 &lt;code class=&quot;language-text&quot;&gt;True&lt;/code&gt;로 줘서 넘겼다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; django&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;contrib&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;auth &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; views &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; auth_views
+
+&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; views
+
+&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;BookLoginView&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;auth_views&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;LoginView&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;get_context_data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;self&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;**&lt;/span&gt;kwargs&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        context &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;get_context_data&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;**&lt;/span&gt;kwargs&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+        context&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;update&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token operator&quot;&gt;**&lt;/span&gt;views&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;get_render_dict&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; context
+
+
+&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;BookLogoutView&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;auth_views&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;LogoutView&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    template_name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;book/index.html&apos;&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;get_context_data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;self&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;**&lt;/span&gt;kwargs&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        context &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;get_context_data&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;**&lt;/span&gt;kwargs&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+        context&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;update&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token string&quot;&gt;&apos;logged_out&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;token operator&quot;&gt;**&lt;/span&gt;views&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;get_render_dict&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; context&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Template 에서는 단순한 로그인 폼을 보여주었다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;{% raw %}
+{% extends &amp;#39;book/base/base.html&amp;#39; %}
+
+{% block body %}
+    &amp;lt;h2&amp;gt;로그인&amp;lt;/h2&amp;gt;
+    &amp;lt;form method=&amp;quot;post&amp;quot; action=&amp;quot;&amp;quot;&amp;gt;
+        {% csrf_token %}
+        {{ form.as_p }}
+        &amp;lt;input type=&amp;quot;submit&amp;quot; value=&amp;quot;로그인&amp;quot;/&amp;gt;
+    &amp;lt;/form&amp;gt;
+{% endblock %}
+{% endraw %}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이 파일은 기본적으로 ‘registration/login.html’로 위치시키면 되고, default value를 쓰기 싫다면 &lt;code class=&quot;language-text&quot;&gt;BookLoginView&lt;/code&gt;의 &lt;code class=&quot;language-text&quot;&gt;template_name&lt;/code&gt;을 overriding 해주면 된다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Setting Squid Proxy]]></title><description><![CDATA[Selenium으로 크롤링하던 중에 너무 동일한 request를 반복적으로 보내는 부분이 있어서 때로는 차단을 당하는거 같아서
+GCP에 프록시를 하나 설정해 보았다. 캐시 설정이 완전하지 않긴 한데, 설정해서 중복으로 들어가는 request…]]></description><link>https://paryoja.github.io/2020-01-12-setting-squid-proxy/</link><guid isPermaLink="false">https://paryoja.github.io/2020-01-12-setting-squid-proxy/</guid><pubDate>Sun, 12 Jan 2020 13:32:00 GMT</pubDate><content:encoded>&lt;p&gt;Selenium으로 크롤링하던 중에 너무 동일한 request를 반복적으로 보내는 부분이 있어서 때로는 차단을 당하는거 같아서
+GCP에 프록시를 하나 설정해 보았다. 캐시 설정이 완전하지 않긴 한데, 설정해서 중복으로 들어가는 request도 줄이면 좋을 듯 하다.&lt;/p&gt;
+&lt;p&gt;Docker image는 공식인지 모르겠는데 sameersbn/squid 를 사용하였다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;http_port 3128
+cache_mem 1 MB
+maximum_object_size 4096 KB
+cache_dir ufs /work/cache 100 16 256
+cache_access_log /work/logs/access.log
+cache_log /work/logs/cache.log
+cache_store_log /work/logs/store.log
+debug_options ALL,1
+buffered_logs on
+acl all src all 
+http_access allow all&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;도커 이미지 시작하다가 메모리 부족하다는 메시지와 함께 시작되지 않았다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;FATAL: xcalloc: Unable to allocate 1048576 blocks of 392 bytes!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;GCP 공짜 인스턴스 메모리가 580MB 밖에 안되서 그런가 싶었는데, 설정의 메모리 부분을 줄여보는데도 변화가 없었다.
+swap 메모리 영역이 설정되어 있지 않아서 그런거 같아서 swap 파일로 설정해두니 잘 동작한다.
+스왑 파일 만들고 적용하는 것은 &lt;a href=&quot;https://extrememanual.net/12975&quot;&gt;https://extrememanual.net/12975&lt;/a&gt; 에서의 내용을 참고했다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# 스왑 파일 생성
+fallocate -l 2GB /swapfile  
+chmod 600 /swapfile
+mkswap /swapfile
+
+# 스왑 파일 등록
+swapon /swapfile&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;나중에 &lt;code class=&quot;language-text&quot;&gt;/etc/fstab&lt;/code&gt;에 다음과 같이 등록하라고 하는데, 혹시 재부팅시에 부팅 안될까봐서 아직은 적용하지 않았다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;/swapfile   none    swap    sw    0   0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;나중에 해봤는데 잘 동작했다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;어짜피 하는게 별로 없어서 &lt;a href=&quot;https://github.com/caddyserver/caddy&quot;&gt;caddy&lt;/a&gt; 라는 걸 써보는 것도 나쁘지 않을거 같다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Crawling with Selenium]]></title><description><![CDATA[데이터를 크롤링 하기 위해서 requests 를 이용해서 진행하다가 스크립트를 이용하여 데이터가 변경되는 사이트가 있어서
+java script를 실행해서 받아 올까 하다가 Selenium…]]></description><link>https://paryoja.github.io/2020-01-12-crawling-with-selenium/</link><guid isPermaLink="false">https://paryoja.github.io/2020-01-12-crawling-with-selenium/</guid><pubDate>Sun, 12 Jan 2020 01:16:00 GMT</pubDate><content:encoded>&lt;p&gt;데이터를 크롤링 하기 위해서 requests 를 이용해서 진행하다가 스크립트를 이용하여 데이터가 변경되는 사이트가 있어서
+java script를 실행해서 받아 올까 하다가 Selenium을 활용하여 실제 웹 브라우저를 이용해서 진행하였다.&lt;/p&gt;
+&lt;p&gt;먼저 Chrome driver를 다운받아 경로에 두고 다음과 같이 driver를 생성한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; selenium &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; webdriver
+
+options &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; webdriver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ChromeOptions&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;옵션 설정&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+driver &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; webdriver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Chrome&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;{}/chromedriver&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;chrome_driver_path&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; chrome_options&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;options&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;브라우저에서 진행할 수 있는 다양한 행동을 함수를 통해서 수행 할 수 있다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;driver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;get&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;url&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;                       &lt;span class=&quot;token comment&quot;&gt;# url로 이동&lt;/span&gt;
+driver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;execute_script&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;               &lt;span class=&quot;token comment&quot;&gt;# java script 실행&lt;/span&gt;
+driver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;set_window_position&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;# 브라우저 위치 설정&lt;/span&gt;
+driver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;set_window_size&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;      &lt;span class=&quot;token comment&quot;&gt;# 브라우저 크기 설정&lt;/span&gt;
+driver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;page_source                    &lt;span class=&quot;token comment&quot;&gt;# 현재 html 가져오기, 함수가 아님에 유의&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;때로는 웹 페이지가 로드 되기 전이여서 기다려야 할 때가 있다.
+자주 쓰일거 같아서 함수로 만들어 보았다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; selenium&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;webdriver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;common&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;by &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; By
+&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; selenium&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;webdriver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;support &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; expected_conditions &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; EC
+&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; selenium&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;webdriver&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;support&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ui &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; WebDriverWait
+
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;wait&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;driver&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; name&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;By&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;NAME&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;try&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        WebDriverWait&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;driver&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;until&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+            EC&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;presence_of_element_located&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; name&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Chrome option 부분에서 headless 모드로 실행(실제 동작하는 모습을 보여주지 않음)한다던지 프록시 설정을 진행할 수도 있다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;options&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;add_argument&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;--proxy-server=%s&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; PROXY&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+options&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;add_argument&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;headless&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Serving static files]]></title><description><![CDATA[기존에는 Django 자체의 web server 기능으로 디버깅을 하다가 
+aws 환경에서는 Debug를 false로 세팅해야겠다 싶어서 변경했다.
+다른건 잘 나오는데 css과 같은 static file…]]></description><link>https://paryoja.github.io/2020-01-05-serving-static-files/</link><guid isPermaLink="false">https://paryoja.github.io/2020-01-05-serving-static-files/</guid><pubDate>Sun, 05 Jan 2020 08:23:00 GMT</pubDate><content:encoded>&lt;p&gt;기존에는 Django 자체의 web server 기능으로 디버깅을 하다가
+aws 환경에서는 Debug를 false로 세팅해야겠다 싶어서 변경했다.
+다른건 잘 나오는데 css과 같은 static file들이 제대로 제공되지 않아서 페이지가 제대로 표시되지 않는 문제가 발생.
+찾아보니 Django의 디버깅용 서버는 static 파일을 다양한 위치에서 검색해서 제공하지만,
+&lt;code class=&quot;language-text&quot;&gt;DEBUG=False&lt;/code&gt;인 경우는 웹서버가 그 일을 해주기 때문에 해주지 않는다고 한다.
+웹서버는 파일이 다양한 경로에 분산되어 있기보단 한 폴더 내에 모두 있어야 효율적이므로 한 폴더로 모으는 작업이 필요하게 된다.&lt;/p&gt;
+&lt;p&gt;먼저 모아주는 위치를 settings.py에서 STATIC_ROOT로 지정해주어야 한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;echo yes | python3 manage.py collectstatic&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;를 스크립트에 추가하였다.
+프로젝트에 흩어져 있는 staticfile을 모아주는 역할이라고 한다.
+매번 돌릴 스크립트인데, 이미 모아저 있는 경우 yes, no를 물어 보길래 입력으로 yes를 넣어주었다.&lt;/p&gt;
+&lt;p&gt;Ngnix에서는 url의 static 경로를 모아져 있는 폴더 위치로 지정해줘야 한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;location /static/ {
+        alias /work/dashboard/.static_root/;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;와 같이 지정해주면 된다.&lt;/p&gt;
+&lt;p&gt;처음에 제대로 되지 않아서
+&lt;code class=&quot;language-text&quot;&gt;autoindex on;&lt;/code&gt; 옵션을 통해 제대로 된 디렉토리인지 디버깅이 가능하게 하였다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;알고보니 그냥 엔진 재시작을 하면 적용이 제대로 되는 상황이였다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;정리&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;settings.py에 STATIC_ROOT추가&lt;/li&gt;
+&lt;li&gt;manage.py collectstatic 수행&lt;/li&gt;
+&lt;li&gt;nginx location 추가&lt;/li&gt;
+&lt;li&gt;각 엔진 재시작&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Free Sevices in Azure]]></title><description><![CDATA[Azure에서 체험판 계정을 통해 무료로 생성가능한 인스턴스를 생성했으나 
+구성이 무료구성과 차이가 있어서 과금이 되었다.
+다행히 크레딧 제공받은 것으로 커버가 가능했지만, 인스턴스 생성시에
+무료 과금되는 부분이 명시가 되지 않아서 (AWS…]]></description><link>https://paryoja.github.io/2020-01-05-free-services-in-Azure/</link><guid isPermaLink="false">https://paryoja.github.io/2020-01-05-free-services-in-Azure/</guid><pubDate>Sun, 05 Jan 2020 08:23:00 GMT</pubDate><content:encoded>&lt;p&gt;Azure에서 체험판 계정을 통해 무료로 생성가능한 인스턴스를 생성했으나
+구성이 무료구성과 차이가 있어서 과금이 되었다.
+다행히 크레딧 제공받은 것으로 커버가 가능했지만, 인스턴스 생성시에
+무료 과금되는 부분이 명시가 되지 않아서 (AWS에서는 무료 구성이 있었던거 같은데)
+지원에 문의하니 free service를 입력하고 나오는 것대로 하면 된다고 한다.
+free service를 입력했으나 검색이 안되서 “무료 서비스”로 검색하니 나온다.
+인스턴스 하나랑 RDB하나 생성해야겠다.
+&lt;/p&gt;</content:encoded></item><item><title><![CDATA[2FA Authentication for github]]></title><description><![CDATA[Google등 검색 엔진에 검색이 되도록 하려는 중에 왠지 걱정이 되어서 two-factor authentication을 활성화 시켰다.
+덕분에 기존 git push 시에 인증이 안되는 이슈가 발생.
+github 안내 페이지에
+보니 ssh key…]]></description><link>https://paryoja.github.io/2020-01-05-2fa-auth-github/</link><guid isPermaLink="false">https://paryoja.github.io/2020-01-05-2fa-auth-github/</guid><pubDate>Sat, 04 Jan 2020 15:23:00 GMT</pubDate><content:encoded>&lt;p&gt;Google등 검색 엔진에 검색이 되도록 하려는 중에 왠지 걱정이 되어서 two-factor authentication을 활성화 시켰다.
+덕분에 기존 git push 시에 인증이 안되는 이슈가 발생.
+&lt;a href=&quot;https://help.github.com/en/github/authenticating-to-github/accessing-github-using-two-factor-authentication&quot;&gt;github 안내 페이지&lt;/a&gt;에
+보니 ssh key로 하거나 personal access token을 사용하라고 하였다.&lt;/p&gt;
+&lt;p&gt;Personal access token을 생성했는데, 생성시에 적어 두거나 저장해두지 않으면 다음번 쓸 때 재발급 받아야 하는 문제가 있어서
+ssh 키를 등록하는 방식으로 진행해 보았다.
+Linux / Mac 이야 ssh-keygen 명령어로 쉽게 생성이 가능했는데, windows 환경에서는 putty의 기능을 써야했다.
+Putty를 깔아야하나 고민하던 차에 git client로 쓰던 Sourcetree에 ssh key 생성 기능이 putty-gen으로 되어 있음을 깨닫고
+그걸 이용하여 생성 완료.
+다만 Sourcetree가 의문의 이유로 종료되는 것을 겪었다. (Atlassian 좋아하는데 Sourcetree 안정성은 왜 항상…)
+여튼 key 생성 후 등록 완료. 따라서 현재는 windows/mac book에서 github push가 자유로워졌다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;다만 기존에 https:// 경로로 checkout한 repository의 설정을 모두 ssh로 변경하는 번거로움은 있었다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/1722807/how-to-convert-git-urls-to-http-urls/11383587#11383587&quot;&gt;stackoverflow&lt;/a&gt; 에 설정 한번으로 변경하는 것이 나와 있었네 Thx 병찬!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Starting Blog]]></title><description><![CDATA[Django로 개인 홈페이지를 만들면서 다양한 설정으로 프로젝트가 복잡해짐에 따라서 내용을 정리할 공간이 필요해진 차에,
+Github pages…]]></description><link>https://paryoja.github.io/2020-01-04-starting-blog/</link><guid isPermaLink="false">https://paryoja.github.io/2020-01-04-starting-blog/</guid><pubDate>Sat, 04 Jan 2020 08:18:00 GMT</pubDate><content:encoded>&lt;p&gt;Django로 개인 홈페이지를 만들면서 다양한 설정으로 프로젝트가 복잡해짐에 따라서 내용을 정리할 공간이 필요해진 차에,
+Github pages를 써볼까하는 마음이 들어서 작성을 해보는 중이다.
+마침 읽고 있던
+&lt;a href=&quot;http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&amp;#x26;mallGb=KOR&amp;#x26;barcode=9791160507621&amp;#x26;orderClick=LAG&amp;#x26;Kc=&quot;&gt;커리어 스킬&lt;/a&gt;에서도 블로그를 만들어 볼 것을 추천하기도 했고.
+막상 정리를 하려고 하니 번거로운 것 투성이이긴 하다.
+생각만큼 예쁘게 정리가 될지도 잘 모르겠고.&lt;/p&gt;
+&lt;p&gt;그래도 가끔은 한번 찾아 본것들을 다시 찾고 나중에 또 찾고 그러기 보다는 간간히 정리해 둠으로써 나중에 찾기 쉽게 해주는 것도 좋을듯.
+문제에 대한 자세한 해결책은 보통 링크로 대체하고, 핵심 부분만 간단하게 남기는 것을 목표로 해봐야겠다.&lt;/p&gt;</content:encoded></item></channel></rss>

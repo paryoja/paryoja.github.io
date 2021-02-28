@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://paryoja.github.io/sitemap.xml

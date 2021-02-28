@@ -1,32 +1,75 @@
 module.exports = {
   siteMetadata: {
-    title: "Yozit Blog",
-    siteUrl: "https://paryoja.github.io/",
+    title: `Yoonjae Park's Blog`,
+    author: {
+      name: `Yoonjae Park`,
+      summary: `Developer & Scientist`,
+    },
+    description: `A starter blog demonstrating what Gatsby can do.`,
+    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
   },
   plugins: [
-    "gatsby-plugin-netlify-cms",
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        trackingId: "UA-158963477-1",
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
       },
     },
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        icon: "src/images/icon.png",
+        path: `${__dirname}/content/assets`,
+        name: `assets`,
       },
     },
-    "gatsby-plugin-mdx",
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-transformer-remark`,
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 630,
+            },
+          },
+          {
+            resolve: `gatsby-remark-responsive-iframe`,
+            options: {
+              wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
+          },
+          `gatsby-remark-prismjs`,
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
+        ],
       },
-      __key: "pages",
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        //trackingId: `ADD YOUR TRACKING ID HERE`,
+      },
+    },
+    `gatsby-plugin-feed`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Gatsby Starter Blog`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `content/assets/gatsby-icon.png`,
+      },
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-gatsby-cloud`,
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    // `gatsby-plugin-offline`,
   ],
-};
+}

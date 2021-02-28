@@ -1,7 +1,6 @@
 ---
 title: Changed to Gatsby
 date: "2021-02-28T21:16:03.284Z"
-description: "Hello World"
 ---
 
 블로그 관리를 또 한동안 안하다가 괜히 react를 공부한단 핑게로 gatsby로 옮겨봤다.

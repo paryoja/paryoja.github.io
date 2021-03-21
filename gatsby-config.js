@@ -4,9 +4,11 @@ module.exports = {
     author: {
       name: `Yoonjae Park`,
       summary: `Developer & Scientist`,
+      instagram: `paryoja`,
+      linkedin: `yoonjaepark`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    siteUrl: `https://paryoja.github.io/`,
   },
   plugins: [
     {
@@ -50,7 +52,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-158963477-1`,
       },
     },
     `gatsby-plugin-feed`,
@@ -68,8 +70,15 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-gatsby-cloud`,
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `yozit`,
+      },
+    },
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
